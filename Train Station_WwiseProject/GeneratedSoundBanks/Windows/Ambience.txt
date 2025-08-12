@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	850781420	Amb_2D_Station_Stop			\Default Work Unit\Ambience\Amb_2D_Station_Stop	
+	3434088050	Amb_2D_Station_Play			\Default Work Unit\Ambience\Amb_2D_Station_Play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	403667188	Amb_2D_TrainStation_DarkDrone	G:\Freelance\Active\TrainStation\Repo\Train-Station\Train Station_WwiseProject\.cache\0B\{0B93D590-E527-75AF-903F-37275B49836D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Amb_Global\TrainStation\Amb_2D_Trainstation\Amb_2D_TrainStation_DarkDrone		16888984
+	1030794682	Amb_2D_TrainStation_WaterDrips	G:\Freelance\Active\TrainStation\Repo\Train-Station\Train Station_WwiseProject\.cache\9F\{9F1BF82D-A7EA-A4B8-B123-705CA5409C7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Amb_Global\TrainStation\Amb_2D_Trainstation\Amb_2D_TrainStation_WaterDrips		16888984
+

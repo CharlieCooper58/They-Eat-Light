@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{80DE97E5-B25C-4A34-BCC1-2DC0E255D566}" SchemaVersion="123" RootDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" ParentDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{80DE97E5-B25C-4A34-BCC1-2DC0E255D566}" OwnerID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Amb_2D_Station_Play" ID="{0E727082-803C-448D-8B49-1CE7BD9D7EA4}">
+					<ChildrenList>
+						<Action Name="" ID="{31C2A50A-5D65-43BE-91B2-C8EB87B34955}" ShortID="1072817317">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B7FB33E3-8E9C-4527-942E-DB9CEE5B2B3D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="95"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_2D_TrainStation_DarkDrone" ID="{FE2479D2-F067-4515-BED9-B5E8A065E30D}" WorkUnitID="{C0B7856A-47D1-4DB3-ACF4-B1D94EC76BB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B4E64E7-EFAF-4F51-B151-96379B0B964A}" ShortID="64976570">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="SeekPercent" Type="Real64" Value="10">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C0D01357-F11F-4B61-AD44-1220224C27B2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="95"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_2D_TrainStation_WaterDrips" ID="{BCE8DB86-81C5-417C-8F84-AC28BFFD8966}" WorkUnitID="{C0B7856A-47D1-4DB3-ACF4-B1D94EC76BB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA570751-6F80-4C2D-995F-AD6F6C4FAB3B}" ShortID="687148262">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_2D_Trainstation" ID="{26E3F633-D5A7-4F8D-B492-EAD726209D14}" WorkUnitID="{C0B7856A-47D1-4DB3-ACF4-B1D94EC76BB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_2D_Station_Stop" ID="{648EE284-92F8-4BEE-9ECA-378764756039}">
+					<ChildrenList>
+						<Action Name="" ID="{54B33A3E-EFC0-4827-B241-0AB02103EF7C}" ShortID="64895594">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_2D_Trainstation" ID="{26E3F633-D5A7-4F8D-B492-EAD726209D14}" WorkUnitID="{C0B7856A-47D1-4DB3-ACF4-B1D94EC76BB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

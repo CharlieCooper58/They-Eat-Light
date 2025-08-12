@@ -1,0 +1,66 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "85412153",
+    "Type": "User",
+    "GUID": "{FCA48DFC-15B6-4F3E-9A1C-B525F5123971}",
+    "Language": "SFX",
+    "Hash": "{12C84C9E-CBBA-11CD-5449-B41A1B423F98}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
+    "ShortName": "Ambience",
+    "Path": "Ambience.bnk",
+    "Media": [
+     {
+      "Id": "403667188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Amb_2D_TrainStation_DarkDrone.wav",
+      "CachePath": "0B/{0B93D590-E527-75AF-903F-37275B49836D}.wem"
+     },
+     {
+      "Id": "1030794682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience\\Amb_2D_TrainStation_WaterDrips.wav",
+      "CachePath": "9F/{9F1BF82D-A7EA-A4B8-B123-705CA5409C7B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3434088050",
+      "Name": "Amb_2D_Station_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Amb_2D_Station_Play",
+      "GUID": "{0E727082-803C-448D-8B49-1CE7BD9D7EA4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "403667188"
+       },
+       {
+        "Id": "1030794682"
+       }
+      ]
+     },
+     {
+      "Id": "850781420",
+      "Name": "Amb_2D_Station_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Amb_2D_Station_Stop",
+      "GUID": "{648EE284-92F8-4BEE-9ECA-378764756039}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A12E56E8-713C-D0DB-906D-1D1FDEB9D718}"
+ }
+}
