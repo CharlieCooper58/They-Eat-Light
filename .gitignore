@@ -97,3 +97,28 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# =============================
+# Wwise-specific ignores
+# =============================
+
+# Backup folders
+.backup*/
+
+# Cache folders
+.cache*/
+
+# Profiling files
+*.prof
+
+# Validation cache
+*.validationcache
+
+# User-specific Wwise settings
+*.wsettings
+
+# Incremental sound bank build data
+IncrementalSoundBankData.xml
+
+# Unity Wwise integration generated picker cache
+/[Aa]ssets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
