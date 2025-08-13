@@ -284,7 +284,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""id"": ""7dcd4d0b-793a-4592-8526-3d349d250f3c"",
                     ""path"": ""<Mouse>/scroll"",
                     ""interactions"": """",
-                    ""processors"": ""ScaleVector2(x=0.008333334,y=0.008333334)"",
+                    ""processors"": ""ScaleVector2"",
                     ""groups"": """",
                     ""action"": ""ChangeScanSpread"",
                     ""isComposite"": false,

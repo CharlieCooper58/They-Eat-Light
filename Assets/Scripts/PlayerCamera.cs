@@ -33,9 +33,6 @@ public class PlayerCamera : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         cameraRotationHelper.localRotation = transform.rotation;
-        FindObjectOfType<CinemachineVirtualCamera>().Follow = cameraPivot.transform;
-        
-        
     }
 
     private void Update()

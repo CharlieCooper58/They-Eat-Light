@@ -70,6 +70,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void ChangeScanSpread(Vector2 scanChangeInput)
     {
+        print(scanChangeInput);
         _scanner.ChangeSpread(scanChangeInput.y);
     }
 
