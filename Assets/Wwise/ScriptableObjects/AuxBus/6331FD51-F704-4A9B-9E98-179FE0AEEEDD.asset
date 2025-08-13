@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd516d06c9fafa84a9119ad83a33f99a, type: 3}
+  m_Name: 6331FD51-F704-4A9B-9E98-179FE0AEEEDD
+  m_EditorClassIdentifier: 
+  objectName: Global_Reverb_Room
+  id: 2393145723
+  guid: 6331FD51-F704-4A9B-9E98-179FE0AEEEDD

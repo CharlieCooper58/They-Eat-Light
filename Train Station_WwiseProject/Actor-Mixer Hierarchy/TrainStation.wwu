@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0B7856A-47D1-4DB3-ACF4-B1D94EC76BB4}" SchemaVersion="123" RootDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" ParentDocumentID="{3F6D7E98-247C-4DB6-9C53-792A2B2CE41D}">
+	<AudioObjects>
+		<WorkUnit Name="TrainStation" ID="{C0B7856A-47D1-4DB3-ACF4-B1D94EC76BB4}" OwnerID="{CCABA1BC-3269-4B7A-A08F-F6A8DDBE26A4}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="Amb_2D_Trainstation" ID="{26E3F633-D5A7-4F8D-B492-EAD726209D14}" ShortID="258025605">
+					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Amb_2D_TrainStation_WaterDrips" ID="{BCE8DB86-81C5-417C-8F84-AC28BFFD8966}" ShortID="202948747">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambience" ID="{3F6C9C0D-237C-4E9F-A4FF-88AD9A55FFE4}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_2D_TrainStation_WaterDrips" ID="{ABAB92C3-BD63-4E5B-8C34-78F55C1876EA}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1145.348"/>
+										<Property Name="LoopBegin" Type="Real64" Value="6.50428471095125"/>
+										<Property Name="LoopEnd" Type="Real64" Value="82.0090508994997"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_2D_TrainStation_WaterDrips.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030794682"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_2D_TrainStation_WaterDrips" ID="{ABAB92C3-BD63-4E5B-8C34-78F55C1876EA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_2D_TrainStation_DarkDrone" ID="{FE2479D2-F067-4515-BED9-B5E8A065E30D}" ShortID="220708912">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambience" ID="{3F6C9C0D-237C-4E9F-A4FF-88AD9A55FFE4}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_2D_TrainStation_DarkDrone" ID="{47002732-25BC-4EDD-944D-E64C3C5A4248}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="7101.156"/>
+										<Property Name="LoopBegin" Type="Real64" Value="8.74120802424137"/>
+										<Property Name="LoopEnd" Type="Real64" Value="75.4015235740889"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambience\Amb_2D_TrainStation_DarkDrone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="403667188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_2D_TrainStation_DarkDrone" ID="{47002732-25BC-4EDD-944D-E64C3C5A4248}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{439912D3-7987-4D1B-AFDA-BA56FBCD21F5}" ShortID="576316856"/>
+					</BlendTrackList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

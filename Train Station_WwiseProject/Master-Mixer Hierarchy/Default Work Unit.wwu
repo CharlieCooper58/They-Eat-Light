@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{127E1CBD-8AEB-4E3D-B70B-5753A274393B}" WorkUnitID="{9015FD57-C20F-4417-B7F0-1BC83EF301B1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambience" ID="{3F6C9C0D-237C-4E9F-A4FF-88AD9A55FFE4}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<AuxBus Name="Global_Reverb_Room" ID="{6331FD51-F704-4A9B-9E98-179FE0AEEEDD}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Amb_2D_Room_5k" ID="{87FBD7A0-690E-4A3D-9A6A-A244DBFE59E2}" WorkUnitID="{78F9ABA2-31F3-4CD2-B17B-621651D81552}"/>
+								</Reference>
+							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{6C567C6C-90F7-41CC-9ED0-2B526EF8E37C}"/>
+								<Position Name="" ID="{CBE4B8C8-E886-454C-AC46-8A521AD70527}"/>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{429DF299-BB75-4C32-B0C1-DBB949E03B95}" ShortID="940935941">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom CreatedFrom="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}">
+															<Effect Name="Room_Large (Custom)" ID="{F680D402-0755-473B-8305-03D9870F3A2E}" ShortID="232938768" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<PropertyList>
+																	<Property Name="DecayTime" Type="Real32" Value="1.8"/>
+																	<Property Name="Density" Type="Real32" Value="70"/>
+																	<Property Name="Diffusion" Type="Real32" Value="46"/>
+																	<Property Name="ERLevel" Type="Real32" Value="-23"/>
+																	<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																	<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																	<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																	<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+																	<Property Name="PreDelay" Type="Real32" Value="35"/>
+																	<Property Name="Quality" Type="int32" Value="12"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																	<Property Name="RoomShape" Type="Real32" Value="55"/>
+																	<Property Name="RoomSize" Type="Real32" Value="15"/>
+																	<Property Name="StereoWidth" Type="Real32" Value="140"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

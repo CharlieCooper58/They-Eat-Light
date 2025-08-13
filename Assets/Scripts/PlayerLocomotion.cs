@@ -50,7 +50,7 @@ public class PlayerLocomotion : MonoBehaviour
         HandleJumping();
         HandlePlanarMovement();
         HandleFootsteps();
-        rb.velocity = planarVelocity + Vector3.up*rb.velocity.y;
+        rb.linearVelocity = planarVelocity + Vector3.up*rb.linearVelocity.y;
     }
     private void HandlePlanarMovement()
     {
@@ -72,7 +72,7 @@ public class PlayerLocomotion : MonoBehaviour
             }
             else if (playerInputHandler.jump)
             {
-                rb.velocity = new Vector3(rb.velocity.x, jumpHeight, rb.velocity.z);
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpHeight, rb.linearVelocity.z);
             }
         }
         else

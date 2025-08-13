@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{715D2753-F1E1-4671-A03F-35BD0C7A4A52}" SchemaVersion="123">
+	<Attenuations>
+		<WorkUnit Name="Default Work Unit" ID="{715D2753-F1E1-4671-A03F-35BD0C7A4A52}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Ambience" ID="{78F9ABA2-31F3-4CD2-B17B-621651D81552}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

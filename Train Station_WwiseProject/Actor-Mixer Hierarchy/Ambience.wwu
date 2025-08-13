@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F6D7E98-247C-4DB6-9C53-792A2B2CE41D}" SchemaVersion="123" RootDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" ParentDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{3F6D7E98-247C-4DB6-9C53-792A2B2CE41D}" OwnerID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="2D_Amb_Global" ID="{CCABA1BC-3269-4B7A-A08F-F6A8DDBE26A4}" ShortID="794431003">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{3F6C9C0D-237C-4E9F-A4FF-88AD9A55FFE4}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="TrainStation" ID="{C0B7856A-47D1-4DB3-ACF4-B1D94EC76BB4}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
