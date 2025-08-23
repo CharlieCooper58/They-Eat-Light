@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D1C7C09-04BB-4AF5-908E-5AC81B3D36B6}" SchemaVersion="123" RootDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" ParentDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}">
+	<AudioObjects>
+		<WorkUnit Name="Foley" ID="{0D1C7C09-04BB-4AF5-908E-5AC81B3D36B6}" OwnerID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="Heartbeat_Loop" ID="{7566A6AE-035B-4FE9-BE80-0978F0BBDF90}" ShortID="758412211">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Heartbeat_Loop" ID="{1B38F354-D5EC-418A-9F10-331C9784663F}">
+							<Language>SFX</Language>
+							<AudioFile>Foley\Heartbeat_Loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="838361277"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Heartbeat_Loop" ID="{1B38F354-D5EC-418A-9F10-331C9784663F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

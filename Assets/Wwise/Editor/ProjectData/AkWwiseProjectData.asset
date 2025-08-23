@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 1874b7df3407614e95b3b59b5a2cf28b
     GuidInternal: 
-    m_lastTime: -8584466468186495845
+    m_lastTime: -8584456803913533247
     List:
     - name: Ambience
       guid: fc8da4fcb6153e4f9a1cb525f5123971
@@ -116,6 +116,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: fc8da4fcb6153e4f9a1cb525f5123971
       Path: SoundBanks\Default Work Unit\Ambience
+    - name: SFX
+      guid: ea6b0faf4db3eb46910d8a557f8fef0f
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1874b7df3407614e95b3b59b5a2cf28b
+      - ElementName: SFX
+        ObjectType: 7
+        guid: ea6b0faf4db3eb46910d8a557f8fef0f
+      Path: SoundBanks\Default Work Unit\SFX
   EventWwu:
   - PhysicalPath: Events\Ambience.wwu
     PathAndIcons:
@@ -131,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Ambience
     guid: e597de805cb2344abcc12dc0e255d566
     GuidInternal: 
-    m_lastTime: -8584466457468984465
+    m_lastTime: -8584456809700404003
     List:
     - name: Amb_2D_Station_Play
       guid: 8270720e3c808d448b491ce7bd9d7ea4
@@ -173,6 +187,102 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\Creatures.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6fd97b72b21da84991f969f4d45db597
+    - ElementName: Creatures
+      ObjectType: 12
+      guid: cdf68d1e51515c468ec40c5c97d7854f
+    ParentPath: Events\Default Work Unit\Creatures
+    guid: cdf68d1e51515c468ec40c5c97d7854f
+    GuidInternal: 
+    m_lastTime: -8584456807484803462
+    List:
+    - name: Creatrure_Hostile_Play
+      guid: a0264250bb09da409b42cffa06e51f0e
+      id: 1906809868
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Creatures
+        ObjectType: 12
+        guid: cdf68d1e51515c468ec40c5c97d7854f
+      - ElementName: Creatrure_Hostile_Play
+        ObjectType: 3
+        guid: a0264250bb09da409b42cffa06e51f0e
+      Path: Events\Default Work Unit\Creatures\Creatrure_Hostile_Play
+      maxAttenuation: 100
+      maxDuration: 2.932125
+      minDuration: 2.932125
+    - name: Creature_Ambient_Call_Play
+      guid: 18dfc61173a66f4f9cd75633519731e0
+      id: 3169131063
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Creatures
+        ObjectType: 12
+        guid: cdf68d1e51515c468ec40c5c97d7854f
+      - ElementName: Creature_Ambient_Call_Play
+        ObjectType: 3
+        guid: 18dfc61173a66f4f9cd75633519731e0
+      Path: Events\Default Work Unit\Creatures\Creature_Ambient_Call_Play
+      maxAttenuation: 100
+      maxDuration: 3.8
+      minDuration: 2.2333333
+    - name: Creature_Attack_Play
+      guid: 23e3614c3c320047b44cdcacafcd2a62
+      id: 3752742194
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Creatures
+        ObjectType: 12
+        guid: cdf68d1e51515c468ec40c5c97d7854f
+      - ElementName: Creature_Attack_Play
+        ObjectType: 3
+        guid: 23e3614c3c320047b44cdcacafcd2a62
+      Path: Events\Default Work Unit\Creatures\Creature_Attack_Play
+      maxAttenuation: 100
+      maxDuration: 2.1666667
+      minDuration: 2.1666667
+    - name: Creature_Slam_ChainLinkFence
+      guid: ff5c949b253ba64b94b67ecbbab508ac
+      id: 1620715987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Creatures
+        ObjectType: 12
+        guid: cdf68d1e51515c468ec40c5c97d7854f
+      - ElementName: Creature_Slam_ChainLinkFence
+        ObjectType: 3
+        guid: ff5c949b253ba64b94b67ecbbab508ac
+      Path: Events\Default Work Unit\Creatures\Creature_Slam_ChainLinkFence
+      maxAttenuation: 100
+      maxDuration: 3.3979583
+      minDuration: 3.3979583
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -184,8 +294,120 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6fd97b72b21da84991f969f4d45db597
     GuidInternal: 
-    m_lastTime: -8584466470337820316
+    m_lastTime: -8584456810138256684
     List: []
+  - PhysicalPath: Events\Foley.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6fd97b72b21da84991f969f4d45db597
+    - ElementName: Foley
+      ObjectType: 12
+      guid: 8b0e9b749d5b4d4aa25d0e4149d37373
+    ParentPath: Events\Default Work Unit\Foley
+    guid: 8b0e9b749d5b4d4aa25d0e4149d37373
+    GuidInternal: 
+    m_lastTime: -8584456809287405134
+    List:
+    - name: Heartbeat_Loop_Play
+      guid: e87daa1e350df04b9f69a278fa02dc69
+      id: 827624077
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Foley
+        ObjectType: 12
+        guid: 8b0e9b749d5b4d4aa25d0e4149d37373
+      - ElementName: Heartbeat_Loop_Play
+        ObjectType: 3
+        guid: e87daa1e350df04b9f69a278fa02dc69
+      Path: Events\Default Work Unit\Foley\Heartbeat_Loop_Play
+      maxAttenuation: 0
+      maxDuration: 8.4
+      minDuration: 8.4
+    - name: Heartbeat_Loop_Stop
+      guid: b7e3bcd0e0d3c14b9dfa154aea5e5279
+      id: 1944818395
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Foley
+        ObjectType: 12
+        guid: 8b0e9b749d5b4d4aa25d0e4149d37373
+      - ElementName: Heartbeat_Loop_Stop
+        ObjectType: 3
+        guid: b7e3bcd0e0d3c14b9dfa154aea5e5279
+      Path: Events\Default Work Unit\Foley\Heartbeat_Loop_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Lidar.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6fd97b72b21da84991f969f4d45db597
+    - ElementName: Lidar
+      ObjectType: 12
+      guid: b4f66664f44a1b46970d9b8e65049e26
+    ParentPath: Events\Default Work Unit\Lidar
+    guid: b4f66664f44a1b46970d9b8e65049e26
+    GuidInternal: 
+    m_lastTime: -8584456808278044111
+    List:
+    - name: LIDAR_Off
+      guid: c8dc591ae993694c915e08878cc42191
+      id: 3832211783
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Lidar
+        ObjectType: 12
+        guid: b4f66664f44a1b46970d9b8e65049e26
+      - ElementName: LIDAR_Off
+        ObjectType: 3
+        guid: c8dc591ae993694c915e08878cc42191
+      Path: Events\Default Work Unit\Lidar\LIDAR_Off
+      maxAttenuation: 0
+      maxDuration: 4.137021
+      minDuration: 3.793229
+    - name: LIDAR_On
+      guid: 532a9a31265c9943b447b60623014fb8
+      id: 2546199283
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Lidar
+        ObjectType: 12
+        guid: b4f66664f44a1b46970d9b8e65049e26
+      - ElementName: LIDAR_On
+        ObjectType: 3
+        guid: 532a9a31265c9943b447b60623014fb8
+      Path: Events\Default Work Unit\Lidar\LIDAR_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -242,7 +464,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584466471023136094
     List: []
-  ExpandedFileSystemItemIds: 0b0000000c0000000e0000000f00000010000000
+  ExpandedFileSystemItemIds: 020000000300000004000000070000000b0000000c0000000e0000000f00000010000000
   ExpandedWaapiItemIds: 020000000300000004000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

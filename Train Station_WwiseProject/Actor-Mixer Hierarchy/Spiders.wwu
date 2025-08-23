@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}" SchemaVersion="123" RootDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" ParentDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}">
+	<AudioObjects>
+		<WorkUnit Name="Spiders" ID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}" OwnerID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Spiders" ID="{F8CB106B-41D3-413F-9C46-0850C6E2E45B}" ShortID="601591595">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Amb_2D_Room_5k" ID="{87FBD7A0-690E-4A3D-9A6A-A244DBFE59E2}" WorkUnitID="{78F9ABA2-31F3-4CD2-B17B-621651D81552}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Creature_Ambient_Call" ID="{E370556B-B09D-4625-988A-AEF55AF52000}" ShortID="927303372">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Creature_Ambient_01" ID="{CA6B9882-26D8-4AFA-8810-4766019AF333}" ShortID="832094707">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Creature_Ambient_01" ID="{FAF87965-6F58-4299-A10E-6DF754F8DD00}">
+											<Language>SFX</Language>
+											<AudioFile>Spider\Creature_Ambient_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="29389361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Creature_Ambient_01" ID="{FAF87965-6F58-4299-A10E-6DF754F8DD00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Creature_Ambient_03" ID="{CF46EBCD-A1B5-4385-9C22-79156DD4041D}" ShortID="912657109">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Creature_Ambient_03" ID="{E3365434-3E4A-415D-9560-DCD0B44E9D60}">
+											<Language>SFX</Language>
+											<AudioFile>Spider\Creature_Ambient_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="743853813"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Creature_Ambient_03" ID="{E3365434-3E4A-415D-9560-DCD0B44E9D60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Creature_Ambient_02" ID="{4727A6C6-A52D-4BA8-9BAE-0E3E6047CEF0}" ShortID="1055225691">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Creature_Ambient_02" ID="{9E047B9F-57DB-43AF-B89B-21C09ABC11BC}">
+											<Language>SFX</Language>
+											<AudioFile>Spider\Creature_Ambient_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="224829378"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Creature_Ambient_02" ID="{9E047B9F-57DB-43AF-B89B-21C09ABC11BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Creature_Attack" ID="{A5D144CF-0501-41E8-A394-44C632EF40A7}" ShortID="400050208">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Creature_Attack" ID="{4972C584-C0CD-433F-BC0C-CC8D29518894}">
+									<Language>SFX</Language>
+									<AudioFile>Spider\Creature_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="863828231"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Creature_Attack" ID="{4972C584-C0CD-433F-BC0C-CC8D29518894}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Creature_Slam_ChainLinkFence" ID="{48536A08-4F66-49D9-BFF0-975529F8A53D}" ShortID="122143224">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Creature_Slam_ChainLinkFence" ID="{4FCE5829-AC8C-4DE6-AE6B-70E40D82E8CE}">
+									<Language>SFX</Language>
+									<AudioFile>Spider\Creature_Slam_ChainLinkFence.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="948830246"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Creature_Slam_ChainLinkFence" ID="{4FCE5829-AC8C-4DE6-AE6B-70E40D82E8CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Creatrure_Hostile" ID="{6379B0A6-CFE0-4E00-87C1-9FDF0E84F925}" ShortID="212028459">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Creatrure_Hostile" ID="{4542255C-DBF7-4C8B-A784-C49465782631}">
+									<Language>SFX</Language>
+									<AudioFile>Spider\Creatrure_Hostile.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="622466129"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Creatrure_Hostile" ID="{4542255C-DBF7-4C8B-A784-C49465782631}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

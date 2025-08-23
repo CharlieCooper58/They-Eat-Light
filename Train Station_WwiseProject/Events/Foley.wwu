@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{749B0E8B-5B9D-4A4D-A25D-0E4149D37373}" SchemaVersion="123" RootDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" ParentDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}">
+	<Events>
+		<WorkUnit Name="Foley" ID="{749B0E8B-5B9D-4A4D-A25D-0E4149D37373}" OwnerID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Heartbeat_Loop_Play" ID="{1EAA7DE8-0D35-4BF0-9F69-A278FA02DC69}">
+					<ChildrenList>
+						<Action Name="" ID="{3D4784D1-69A0-461D-958F-4044D05AB26C}" ShortID="431508249">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat_Loop" ID="{7566A6AE-035B-4FE9-BE80-0978F0BBDF90}" WorkUnitID="{0D1C7C09-04BB-4AF5-908E-5AC81B3D36B6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Heartbeat_Loop_Stop" ID="{D0BCE3B7-D3E0-4BC1-9DFA-154AEA5E5279}">
+					<ChildrenList>
+						<Action Name="" ID="{2FE3D2AC-F756-4138-944D-AB49114B2008}" ShortID="867204168">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat_Loop" ID="{7566A6AE-035B-4FE9-BE80-0978F0BBDF90}" WorkUnitID="{0D1C7C09-04BB-4AF5-908E-5AC81B3D36B6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

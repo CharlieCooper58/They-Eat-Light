@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6466F6B4-4AF4-461B-970D-9B8E65049E26}" SchemaVersion="123" RootDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" ParentDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}">
+	<Events>
+		<WorkUnit Name="Lidar" ID="{6466F6B4-4AF4-461B-970D-9B8E65049E26}" OwnerID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="LIDAR_On" ID="{319A2A53-5C26-4399-B447-B60623014FB8}">
+					<ChildrenList>
+						<Action Name="" ID="{0BADAB54-0F7E-437A-A080-49B39FAA6714}" ShortID="724902241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lidar_Switch_On" ID="{B355CA56-3925-4E59-AC66-D1F36DF72986}" WorkUnitID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D57228C2-103C-46A8-9DCF-DF95C21654BA}" ShortID="535213165">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lidar_Scan_Loop" ID="{7CD019CC-E32E-4772-A522-2CC65400ECE1}" WorkUnitID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1E01CAFB-F191-4506-82FB-CB3BC334280F}" ShortID="325694292">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lidar_Scan_Loop" ID="{7CD019CC-E32E-4772-A522-2CC65400ECE1}" WorkUnitID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LIDAR_Off" ID="{1A59DCC8-93E9-4C69-915E-08878CC42191}">
+					<ChildrenList>
+						<Action Name="" ID="{4676925D-9026-431A-A8D8-24809966D430}" ShortID="1063750003">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lidar_Switch_Off" ID="{0E974812-D9CC-4A78-9AF4-02DC5844E712}" WorkUnitID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7F6A026C-4AA8-493D-80F4-1AFE9B1D030B}" ShortID="850620569">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lidar_Scan_Loop" ID="{7CD019CC-E32E-4772-A522-2CC65400ECE1}" WorkUnitID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
