@@ -8,6 +8,7 @@ public class PlayerInputHandler : MonoBehaviour
 {
     public PlayerControls playerControls;
     PlayerLocomotion playerLocomotion;
+    PlayerInteracter playerInteracter;
     //[Header("Character Input Values")]
     public Vector2 move { get; private set; }
     public Vector2 look { get; private set; }
@@ -28,6 +29,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         _scanner = GetComponentInChildren<Scanner>();
         playerLocomotion = GetComponent<PlayerLocomotion>();
+        playerInteracter = GetComponent<PlayerInteracter>();
     }
     private void OnEnable()
     {
@@ -43,6 +45,7 @@ public class PlayerInputHandler : MonoBehaviour
             playerControls.Player.Scan.performed += x => Scan();
             playerControls.Player.ChangeScanSpread.performed += x => ChangeScanSpread(x.ReadValue<Vector2>());
             playerControls.Player.Crouch.performed += x => ToggleCrouch();
+            playerControls.Player.Interact.performed += x => playerInteracter.TryInteract();
         }
         else
         {

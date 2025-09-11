@@ -6,7 +6,7 @@ using UnityEngine;
 public class BoneColliderGenerator : MonoBehaviour
 {
     [SerializeField] SkinnedMeshRenderer skinnedMeshRenderer;
-    [Range(0f, 1f)] float boneWeightThreshold = 0.5f;
+    [SerializeField, Range(0f, 1f)] float boneWeightThreshold = 0.5f;
     Transform[] bones;
     MeshCollider[] boneColliders;
     Dictionary<int, List<int>> boneTriangleMappings;
@@ -15,37 +15,47 @@ public class BoneColliderGenerator : MonoBehaviour
 
     int discardedTriangles;
 
+    [SerializeField] int minTrianglesToDefineMesh = 2;
+
+    [SerializeField] bool isCreature;
+
     private void Start()
     {
         skinnedMeshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
         bones = skinnedMeshRenderer.bones;
+        StartCoroutine(WaitAndBake());
+
+    }
+    IEnumerator WaitAndBake()
+    {
+        yield return null;
         GenerateBoneColliders();
     }
-    void SetUpMeshColliders()
+    void SetUpTriangleMappings()
     {
-        boneColliders = new MeshCollider[bones.Length];
         boneTriangleMappings = new();
         for (int i = 0; i < bones.Length; i++)
         {
             boneTriangleMappings.Add(i, new List<int>());
-            if (bones[i].TryGetComponent(out MeshCollider meshCol))
-            {
-                boneColliders[i] = meshCol;
-            }
-            else
-            {
-                boneColliders[i] = bones[i].AddComponent<MeshCollider>();
-            }
-            bones[i].gameObject.layer = GameManager.creatureScansLayer;
         }
-
-
+    }
+    MeshCollider AddMeshColliderToBone(Transform bone)
+    {
+        GameObject newCollider = new GameObject("BoneCollider_" + gameObject.name);
+        newCollider.layer = isCreature?GameManager.creatureScansLayer:GameManager.scanColliderLayer;
+        newCollider.transform.parent = bone;
+        newCollider.transform.localPosition = Vector3.zero;
+        newCollider.transform.localScale = Vector3.one;
+        newCollider.transform.localRotation = Quaternion.identity;
+        return newCollider.AddComponent<MeshCollider>();
     }
     private void GenerateBoneColliders()
     {
         // Add mesh colliders to all the bones
-        SetUpMeshColliders();
-        sharedMesh = skinnedMeshRenderer.sharedMesh;
+        SetUpTriangleMappings();
+        sharedMesh = new();
+        skinnedMeshRenderer.BakeMesh(sharedMesh, true);
+        //sharedMesh = skinnedMeshRenderer.sharedMesh;
         BoneWeight[] boneWeights = skinnedMeshRenderer.sharedMesh.boneWeights;
         int[] triangles = sharedMesh.triangles;
         Vector3[] vertices = sharedMesh.vertices;
@@ -58,6 +68,10 @@ public class BoneColliderGenerator : MonoBehaviour
         foreach( var kvp in boneTriangleMappings)
         {
             var refTriangles = kvp.Value;
+            if(refTriangles.Count < 1)
+            {
+                continue;
+            }
             int[] boneTriangles = new int[refTriangles.Count];
             List<Vector3> boneVertices = new List<Vector3>();
             HashSet<int> allVerticesUsedForBone = new HashSet<int>(refTriangles);
@@ -69,7 +83,12 @@ public class BoneColliderGenerator : MonoBehaviour
             foreach (int oldIndex in allVerticesUsedForBone)
             {
                 vertexMappings[oldIndex] = counter++;
-                boneVertices.Add(bones[kvp.Key].InverseTransformPoint(skinnedMeshRenderer.transform.TransformPoint(vertices[oldIndex])));
+                //Matrix4x4 bindpose = skinnedMeshRenderer.sharedMesh.bindposes[kvp.Key];
+                Vector3 v = skinnedMeshRenderer.transform.TransformPoint(vertices[oldIndex]);
+                Vector3 localPos = bones[kvp.Key].worldToLocalMatrix.MultiplyPoint3x4(v);
+                boneVertices.Add(localPos);
+
+                //boneVertices.Add(bones[kvp.Key].InverseTransformPoint(skinnedMeshRenderer.transform.TransformPoint(vertices[oldIndex])));
             }
 
             for(int i = 0; i < refTriangles.Count; i++)
@@ -77,12 +96,13 @@ public class BoneColliderGenerator : MonoBehaviour
                 boneTriangles[i] = vertexMappings[refTriangles[i]];
             }
 
+
             Mesh boneMesh = new();
             boneMesh.SetVertices(boneVertices);
             boneMesh.SetTriangles(boneTriangles, 0);
             boneMesh.RecalculateBounds();
 
-            boneColliders[kvp.Key].sharedMesh = boneMesh;
+            AddMeshColliderToBone(bones[kvp.Key]).sharedMesh = boneMesh;
         }
     }
 

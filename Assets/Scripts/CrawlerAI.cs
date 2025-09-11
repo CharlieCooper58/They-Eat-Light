@@ -53,8 +53,8 @@ public class CrawlerAI : MonoBehaviour
                 }
                 break;
             case CrawlerState.patrol:
-                agent.Move(agent.speed * lightSensitiveComponent.scanDirection * Time.deltaTime);
-                
+                //agent.Move(agent.speed * lightSensitiveComponent.scanDirection * Time.deltaTime);
+                agent.destination = lightSensitiveComponent.scanPosition;
                 break;
         }
     }

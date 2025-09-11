@@ -1,3 +1,4 @@
+using Cinemachine.Utility;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -58,6 +59,8 @@ public class Scanner : MonoBehaviour
     public void ScanTerrain()
     {
         scanTimeElapsed += Time.deltaTime;
+        Vector3 scanPosition = Camera.main.transform.position;
+        Vector3 forwardDirection = Camera.main.transform.forward;
         while (scanTimeElapsed >= timeBetweenScans)
         {
             float randomSeed = Random.Range(-angleSpread, angleSpread);
@@ -66,15 +69,15 @@ public class Scanner : MonoBehaviour
            
 
             // Generate a random direction within angleSpread of transform.forward
-            Vector3 randomDirection = Quaternion.AngleAxis(randomSeed*Mathf.Cos(randomAngle), transform.right)*Quaternion.AngleAxis(randomSeed*Mathf.Sin(randomAngle), transform.up) * Camera.main.transform.forward;
+            Vector3 randomDirection = Quaternion.AngleAxis(randomSeed*Mathf.Cos(randomAngle), transform.right)*Quaternion.AngleAxis(randomSeed*Mathf.Sin(randomAngle), transform.up) * forwardDirection;
             
             // Perform the raycast  
             RaycastHit hit;
-            if (Physics.Raycast(Camera.main.transform.position, randomDirection, out hit, scanMask))
+            if (Physics.Raycast(scanPosition, randomDirection, out hit, scanMask))
             {
                 if(hit.collider.gameObject.layer == GameManager.creatureScansLayer) //collider.TryGetComponent(out LightSensitiveComponent lsc))
                 {
-                    hit.collider.GetComponentInParent<LightSensitiveComponent>().ReceiveScan(randomDirection);
+                    hit.collider.GetComponentInParent<LightSensitiveComponent>().ReceiveScan(randomDirection, scanPosition);
                     spawnablesManager.SpawnEntity(temporaryScanDotPrefab, hit.point, Quaternion.identity);
                     //Instantiate(temporaryScanDotPrefab, hit.point, Quaternion.identity);
                 }

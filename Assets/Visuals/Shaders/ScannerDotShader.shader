@@ -14,6 +14,8 @@ Shader "Unlit/ScannerDotShader"
         _GradientTex ("Gradient Texture", 2D) = "white"{}
         _DotScale ("Dot Scale", float) = 1.0
         _SampleDistance ("Color Sample Distance", float) = 10
+        _AlphaFalloff("Alpha Falloff", float) = 5
+        _AlphaMin("Min Alpha", float) = 0.2
     }
     SubShader
     {
@@ -39,6 +41,8 @@ Shader "Unlit/ScannerDotShader"
             CBUFFER_START(UnityPerMaterial)
                 float _DotScale = 1;
                 float _SampleDistance = 10;
+                float _AlphaFalloff;
+                float _AlphaMin;
 
             CBUFFER_END
 
@@ -75,9 +79,12 @@ Shader "Unlit/ScannerDotShader"
                 // We offset along camera right and up vectors scaled by vertex.xy
 
                 float3 diff = perDotPivotPos - _WorldSpaceCameraPos;
-                o.camDist = saturate(dot(diff, diff)/_SampleDistance);
+                float distSq = max(dot(diff, diff), .000001);
+                distSq = distSq*rsqrt(distSq);
+                o.camDist = saturate(distSq/_SampleDistance);
+
                 if(o.camDist > 0.5){
-                    _DotScale *= 2*o.camDist;
+                    _DotScale /= 2*o.camDist;
                     }
                 float3 worldPos = perDotPivotPos + camRight * v.vertex.x*_DotScale + camUp * v.vertex.y*_DotScale;
 
@@ -92,6 +99,8 @@ Shader "Unlit/ScannerDotShader"
                 // sample the texture
                 half4 gradientColor = tex2D(_GradientTex, float2(i.camDist, 0.5));
                 half4 dotTex = tex2D(_MainTex, i.uv);
+                float alphaScale = _AlphaMin + (1-_AlphaMin) * exp2(-1.0 * _AlphaFalloff * i.camDist);
+                dotTex.a *= alphaScale;
 
                 return gradientColor * dotTex;
             }
