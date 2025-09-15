@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E8DF6CD-5151-465C-8EC4-0C5C97D7854F}" SchemaVersion="123" RootDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" ParentDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}">
+	<Events>
+		<WorkUnit Name="Creatures" ID="{1E8DF6CD-5151-465C-8EC4-0C5C97D7854F}" OwnerID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Creature_Ambient_Call_Play" ID="{11C6DF18-A673-4F6F-9CD7-5633519731E0}">
+					<ChildrenList>
+						<Action Name="" ID="{21BFA7E5-9723-4B00-AF99-66A680DFFA76}" ShortID="215771856">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creature_Ambient_Call" ID="{E370556B-B09D-4625-988A-AEF55AF52000}" WorkUnitID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Creatrure_Hostile_Play" ID="{504226A0-09BB-40DA-9B42-CFFA06E51F0E}">
+					<ChildrenList>
+						<Action Name="" ID="{931B06B5-241A-43FE-A35C-EEFAC810A12B}" ShortID="206791109">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatrure_Hostile" ID="{6379B0A6-CFE0-4E00-87C1-9FDF0E84F925}" WorkUnitID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Creature_Attack_Play" ID="{4C61E323-323C-4700-B44C-DCACAFCD2A62}">
+					<ChildrenList>
+						<Action Name="" ID="{2B1F9B40-1657-4648-A25E-F4FC2442CC43}" ShortID="135519684">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creature_Attack" ID="{A5D144CF-0501-41E8-A394-44C632EF40A7}" WorkUnitID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Creature_Slam_ChainLinkFence" ID="{9B945CFF-3B25-4BA6-94B6-7ECBBAB508AC}">
+					<ChildrenList>
+						<Action Name="" ID="{21AF4EEC-7B99-451F-AD1C-78A19720E4D1}" ShortID="723069713">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creature_Slam_ChainLinkFence" ID="{48536A08-4F66-49D9-BFF0-975529F8A53D}" WorkUnitID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}" SchemaVersion="123" RootDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" ParentDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}">
+	<AudioObjects>
+		<WorkUnit Name="Lidar" ID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}" OwnerID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Lidar" ID="{EB985734-F59B-401E-B87D-A5EBF95D891C}" ShortID="265146996">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Lidar_Switch_Off" ID="{0E974812-D9CC-4A78-9AF4-02DC5844E712}" ShortID="181732746">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Lida_Switch_Off-001" ID="{F24026A7-97C2-4684-8B3E-FFB09C75A595}" ShortID="641526058">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lida_Switch_Off-001" ID="{410EEC12-AE8C-4BED-AFCB-B04F1FB18523}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lida_Switch_Off-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289490919"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lida_Switch_Off-001" ID="{410EEC12-AE8C-4BED-AFCB-B04F1FB18523}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lida_Switch_Off-006" ID="{B917E5DC-E294-41BA-B2DA-73391EC63D05}" ShortID="286480719">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lida_Switch_Off-006" ID="{671A7DF9-A401-4E35-AD69-20FA7A086964}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lida_Switch_Off-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="447130959"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lida_Switch_Off-006" ID="{671A7DF9-A401-4E35-AD69-20FA7A086964}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lida_Switch_Off-005" ID="{147CB1C3-F75A-4E38-97F3-F96A9965DF8D}" ShortID="24324554">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lida_Switch_Off-005" ID="{20D27A37-D34D-4059-87AF-A55DDEF38403}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lida_Switch_Off-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="591368193"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lida_Switch_Off-005" ID="{20D27A37-D34D-4059-87AF-A55DDEF38403}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lida_Switch_Off-004" ID="{00302FDC-8475-424C-9503-1520251EF5F0}" ShortID="705080471">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lida_Switch_Off-004" ID="{A76E86B7-5615-49C7-B417-C30B25D85B93}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lida_Switch_Off-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="671372612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lida_Switch_Off-004" ID="{A76E86B7-5615-49C7-B417-C30B25D85B93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lida_Switch_Off-007" ID="{4FC979EA-A8E8-4C58-9C09-762F40B3FCEA}" ShortID="702918409">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lida_Switch_Off-007" ID="{4904BEF5-7375-4F54-8F50-3EC1CBC67104}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lida_Switch_Off-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="708131880"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lida_Switch_Off-007" ID="{4904BEF5-7375-4F54-8F50-3EC1CBC67104}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lida_Switch_Off-003" ID="{D52D103C-0EF5-458E-B8A1-0A4EC5D41965}" ShortID="415799029">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lida_Switch_Off-003" ID="{05EC007F-B901-4CDD-9B59-3747221F2D18}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lida_Switch_Off-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="526281562"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lida_Switch_Off-003" ID="{05EC007F-B901-4CDD-9B59-3747221F2D18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lida_Switch_Off-002" ID="{0EE5722F-5731-464F-9DF5-12C9E4FFA2E8}" ShortID="579547165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lida_Switch_Off-002" ID="{336EA11A-53E4-4358-B99A-ED7153BC617B}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lida_Switch_Off-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165495547"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lida_Switch_Off-002" ID="{336EA11A-53E4-4358-B99A-ED7153BC617B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Lidar_Switch_On" ID="{B355CA56-3925-4E59-AC66-D1F36DF72986}" ShortID="744002850">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Lidar_Switch_On-008" ID="{7B101F00-55EE-4694-9372-FB10E582B0BD}" ShortID="445292640">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-008" ID="{9719A87A-EFF2-44E5-A733-229DE0E2C728}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945855424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-008" ID="{9719A87A-EFF2-44E5-A733-229DE0E2C728}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lidar_Switch_On-003" ID="{8775F9EB-7F1C-49BD-9604-91CF265C773B}" ShortID="905587069">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-003" ID="{922164AD-3872-4D31-99C5-902336CD578D}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="483577997"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-003" ID="{922164AD-3872-4D31-99C5-902336CD578D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lidar_Switch_On-001" ID="{C043CA31-3ECB-4061-B13D-29B77B6E01FB}" ShortID="545934534">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-001" ID="{4D08D263-AA2E-4F4D-8480-35B98F6144EA}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="469698927"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-001" ID="{4D08D263-AA2E-4F4D-8480-35B98F6144EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lidar_Switch_On-004" ID="{6B042B07-626C-4384-99F3-06768C68F046}" ShortID="74551227">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-004" ID="{660919B4-C882-458E-B575-B412BEDF6469}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1048414168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-004" ID="{660919B4-C882-458E-B575-B412BEDF6469}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lidar_Switch_On-005" ID="{74A91603-BBB1-4083-A054-C6DE7F3798B8}" ShortID="11454374">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-005" ID="{59B33297-8237-4DEB-BB3D-74AFBD0FB38E}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032008488"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-005" ID="{59B33297-8237-4DEB-BB3D-74AFBD0FB38E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lidar_Switch_On-002" ID="{06492278-FA4A-4C42-8BB5-635BED8CAE36}" ShortID="80524588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-002" ID="{8F7333F9-0D37-4384-9A2C-3D61B00111AA}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696641715"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-002" ID="{8F7333F9-0D37-4384-9A2C-3D61B00111AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lidar_Switch_On-007" ID="{BB1C36F6-AE57-49AB-A5BC-F5AAB32B7C45}" ShortID="367292894">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-007" ID="{CC51870D-CFF8-44C7-8822-62B892F5E2F1}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="264432289"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-007" ID="{CC51870D-CFF8-44C7-8822-62B892F5E2F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lidar_Switch_On-006" ID="{BED01F4B-0C6A-41DD-8E66-106177567AFC}" ShortID="392835138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lidar_Switch_On-006" ID="{511B9BE2-CA12-4F8A-B965-EFFD0DF7A023}">
+											<Language>SFX</Language>
+											<AudioFile>Lidar\Lidar_Switch_On-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="105111215"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lidar_Switch_On-006" ID="{511B9BE2-CA12-4F8A-B965-EFFD0DF7A023}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Lidar_Scan_Loop" ID="{7CD019CC-E32E-4772-A522-2CC65400ECE1}" ShortID="465573910">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lidar_Scan_Loop" ID="{F4AF5DCB-1B81-4E97-8B32-60206F654287}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2181.524"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.98273456280048"/>
+										<Property Name="LoopEnd" Type="Real64" Value="28.8279178531044"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Lidar\Lidar_Scan_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="169465399"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lidar_Scan_Loop" ID="{F4AF5DCB-1B81-4E97-8B32-60206F654287}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

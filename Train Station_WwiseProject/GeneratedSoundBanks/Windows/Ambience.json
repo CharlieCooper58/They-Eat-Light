@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FCA48DFC-15B6-4F3E-9A1C-B525F5123971}",
     "Language": "SFX",
-    "Hash": "{12C84C9E-CBBA-11CD-5449-B41A1B423F98}",
+    "Hash": "{18F4F406-DAAE-144B-ACEE-B052D8D6FE8A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -38,6 +38,7 @@
       "Name": "Amb_2D_Station_Play",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Amb_2D_Station_Play",
       "GUID": "{0E727082-803C-448D-8B49-1CE7BD9D7EA4}",
+      "Color": "2",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -53,6 +54,7 @@
       "Name": "Amb_2D_Station_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Amb_2D_Station_Stop",
       "GUID": "{648EE284-92F8-4BEE-9ECA-378764756039}",
+      "Color": "2",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -61,6 +63,6 @@
     ]
    }
   ],
-  "FileHash": "{A12E56E8-713C-D0DB-906D-1D1FDEB9D718}"
+  "FileHash": "{7053E804-7652-2A07-C280-C2B187171E0D}"
  }
 }

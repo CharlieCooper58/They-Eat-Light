@@ -1,0 +1,375 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "Type": "User",
+    "GUID": "{AF0F6BEA-B34D-46EB-910D-8A557F8FEF0F}",
+    "Language": "SFX",
+    "Hash": "{677FF261-072C-1144-96DE-0E3DB72ECBE6}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "29389361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spider\\Creature_Ambient_01.wav",
+      "CachePath": "40/{4082C848-944C-D136-AB87-4C7F5237EF13}.wem"
+     },
+     {
+      "Id": "105111215",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-006.wav",
+      "CachePath": "DC/{DC3D7F16-99D1-C7A8-3491-5963F0D94B58}.wem"
+     },
+     {
+      "Id": "165495547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lida_Switch_Off-002.wav",
+      "CachePath": "8E/{8E4D5AA2-5CBC-174C-C75E-F0507165F544}.wem"
+     },
+     {
+      "Id": "169465399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Scan_Loop.wav",
+      "CachePath": "0E/{0E1334E9-EBD3-2F08-95AA-6C701BCCB4B1}.wem"
+     },
+     {
+      "Id": "224829378",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spider\\Creature_Ambient_02.wav",
+      "CachePath": "A9/{A9EF3931-60CE-5AA9-1749-6FF3D43761CD}.wem"
+     },
+     {
+      "Id": "264432289",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-007.wav",
+      "CachePath": "9F/{9FCD78B4-C297-488F-7862-9534F374757C}.wem"
+     },
+     {
+      "Id": "289490919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lida_Switch_Off-001.wav",
+      "CachePath": "E0/{E0A3DB7B-FD4E-800B-AD7F-EC3E8FAD687E}.wem"
+     },
+     {
+      "Id": "447130959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lida_Switch_Off-006.wav",
+      "CachePath": "10/{103D3F62-39F9-A1D3-5EFC-CA66E69DBAF6}.wem"
+     },
+     {
+      "Id": "469698927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-001.wav",
+      "CachePath": "35/{35E89BFE-8369-526E-AF50-1BAA87E463A8}.wem"
+     },
+     {
+      "Id": "483577997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-003.wav",
+      "CachePath": "0D/{0DF39BEF-ED3E-A7B3-DA19-1B5126105256}.wem"
+     },
+     {
+      "Id": "526281562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lida_Switch_Off-003.wav",
+      "CachePath": "A4/{A4CDD0B1-A323-2A75-AE66-8628D0807774}.wem"
+     },
+     {
+      "Id": "591368193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lida_Switch_Off-005.wav",
+      "CachePath": "7D/{7D81DE93-FBB7-D386-46C8-D09280DFC2D8}.wem"
+     },
+     {
+      "Id": "622466129",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spider\\Creatrure_Hostile.wav",
+      "CachePath": "78/{78D50B8B-73EB-B8BC-73D0-53FD9EF84F8A}.wem"
+     },
+     {
+      "Id": "671372612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lida_Switch_Off-004.wav",
+      "CachePath": "44/{44E11150-0E1F-63D9-D8FC-F0A75901C093}.wem"
+     },
+     {
+      "Id": "696641715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-002.wav",
+      "CachePath": "AB/{ABB97738-8FBD-C285-023B-7641285D886E}.wem"
+     },
+     {
+      "Id": "708131880",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lida_Switch_Off-007.wav",
+      "CachePath": "B1/{B16BCB8B-1167-A9DE-195D-4B2AED5BBF82}.wem"
+     },
+     {
+      "Id": "743853813",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spider\\Creature_Ambient_03.wav",
+      "CachePath": "4F/{4F3C79C7-D478-E7A3-CCCF-B5990D1F9E4A}.wem"
+     },
+     {
+      "Id": "838361277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Foley\\Heartbeat_Loop.wav",
+      "CachePath": "7B/{7BE53C43-8A9C-E01F-625A-42AA98EBDB70}.wem"
+     },
+     {
+      "Id": "863828231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spider\\Creature_Attack.wav",
+      "CachePath": "6F/{6FAFFAC6-BF1B-6A09-BFA9-6A9B3A63C194}.wem"
+     },
+     {
+      "Id": "945855424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-008.wav",
+      "CachePath": "DA/{DACC9AEC-B524-224E-D270-EEF517D00FF1}.wem"
+     },
+     {
+      "Id": "948830246",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spider\\Creature_Slam_ChainLinkFence.wav",
+      "CachePath": "6D/{6D73F79C-6940-FAFD-8DB0-B575FBA8A2B3}.wem"
+     },
+     {
+      "Id": "1032008488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-005.wav",
+      "CachePath": "C1/{C1C811D9-265F-AF3B-C8B8-CE7D70D936CA}.wem"
+     },
+     {
+      "Id": "1048414168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lidar\\Lidar_Switch_On-004.wav",
+      "CachePath": "B3/{B3F2C2FE-F142-9F81-7119-544A8EE00181}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1906809868",
+      "Name": "Creatrure_Hostile_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Creatrure_Hostile_Play",
+      "GUID": "{504226A0-09BB-40DA-9B42-CFFA06E51F0E}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "2.932125",
+      "DurationMax": "2.932125",
+      "MediaRefs": [
+       {
+        "Id": "622466129"
+       }
+      ]
+     },
+     {
+      "Id": "3169131063",
+      "Name": "Creature_Ambient_Call_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Creature_Ambient_Call_Play",
+      "GUID": "{11C6DF18-A673-4F6F-9CD7-5633519731E0}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2333333",
+      "DurationMax": "3.8",
+      "MediaRefs": [
+       {
+        "Id": "29389361"
+       },
+       {
+        "Id": "224829378"
+       },
+       {
+        "Id": "743853813"
+       }
+      ]
+     },
+     {
+      "Id": "3752742194",
+      "Name": "Creature_Attack_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Creature_Attack_Play",
+      "GUID": "{4C61E323-323C-4700-B44C-DCACAFCD2A62}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1666667",
+      "DurationMax": "2.1666667",
+      "MediaRefs": [
+       {
+        "Id": "863828231"
+       }
+      ]
+     },
+     {
+      "Id": "1620715987",
+      "Name": "Creature_Slam_ChainLinkFence",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Creature_Slam_ChainLinkFence",
+      "GUID": "{9B945CFF-3B25-4BA6-94B6-7ECBBAB508AC}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3979583",
+      "DurationMax": "3.3979583",
+      "MediaRefs": [
+       {
+        "Id": "948830246"
+       }
+      ]
+     },
+     {
+      "Id": "827624077",
+      "Name": "Heartbeat_Loop_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Foley\\Heartbeat_Loop_Play",
+      "GUID": "{1EAA7DE8-0D35-4BF0-9F69-A278FA02DC69}",
+      "Color": "7",
+      "DurationType": "OneShot",
+      "DurationMin": "8.4",
+      "DurationMax": "8.4",
+      "MediaRefs": [
+       {
+        "Id": "838361277"
+       }
+      ]
+     },
+     {
+      "Id": "1944818395",
+      "Name": "Heartbeat_Loop_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Foley\\Heartbeat_Loop_Stop",
+      "GUID": "{D0BCE3B7-D3E0-4BC1-9DFA-154AEA5E5279}",
+      "Color": "7",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3832211783",
+      "Name": "LIDAR_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\Lidar\\LIDAR_Off",
+      "GUID": "{1A59DCC8-93E9-4C69-915E-08878CC42191}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "3.793229",
+      "DurationMax": "4.137021",
+      "MediaRefs": [
+       {
+        "Id": "165495547"
+       },
+       {
+        "Id": "289490919"
+       },
+       {
+        "Id": "447130959"
+       },
+       {
+        "Id": "526281562"
+       },
+       {
+        "Id": "591368193"
+       },
+       {
+        "Id": "671372612"
+       },
+       {
+        "Id": "708131880"
+       }
+      ]
+     },
+     {
+      "Id": "2546199283",
+      "Name": "LIDAR_On",
+      "ObjectPath": "\\Events\\Default Work Unit\\Lidar\\LIDAR_On",
+      "GUID": "{319A2A53-5C26-4399-B447-B60623014FB8}",
+      "Color": "10",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "105111215"
+       },
+       {
+        "Id": "169465399"
+       },
+       {
+        "Id": "264432289"
+       },
+       {
+        "Id": "469698927"
+       },
+       {
+        "Id": "483577997"
+       },
+       {
+        "Id": "696641715"
+       },
+       {
+        "Id": "945855424"
+       },
+       {
+        "Id": "1032008488"
+       },
+       {
+        "Id": "1048414168"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{17D1089D-AA5E-CA52-29D2-61913D49461D}"
+ }
+}

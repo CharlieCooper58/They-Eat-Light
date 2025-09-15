@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Ambience" ID="{80DE97E5-B25C-4A34-BCC1-2DC0E255D566}" PersistMode="Reference"/>
+				<WorkUnit Name="Creatures" ID="{1E8DF6CD-5151-465C-8EC4-0C5C97D7854F}" PersistMode="Reference"/>
+				<WorkUnit Name="Foley" ID="{749B0E8B-5B9D-4A4D-A25D-0E4149D37373}" PersistMode="Reference"/>
+				<WorkUnit Name="Lidar" ID="{6466F6B4-4AF4-461B-970D-9B8E65049E26}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

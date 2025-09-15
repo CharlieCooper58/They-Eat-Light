@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Ambience" ID="{3F6D7E98-247C-4DB6-9C53-792A2B2CE41D}" PersistMode="Reference"/>
+				<WorkUnit Name="Spiders" ID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}" PersistMode="Reference"/>
+				<WorkUnit Name="Foley" ID="{0D1C7C09-04BB-4AF5-908E-5AC81B3D36B6}" PersistMode="Reference"/>
+				<WorkUnit Name="Lidar" ID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
