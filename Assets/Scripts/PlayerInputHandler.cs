@@ -42,7 +42,8 @@ public class PlayerInputHandler : MonoBehaviour
             playerControls.Player.Look.performed += x => look = x.ReadValue<Vector2>();
             playerControls.Player.Jump.performed += x => Jump();
             playerControls.Player.Sprint.performed += x => Sprint();
-            playerControls.Player.Scan.performed += x => Scan();
+            playerControls.Player.Scan.started += x => Scan();
+            playerControls.Player.Scan.canceled += x => Scan();
             playerControls.Player.ChangeScanSpread.performed += x => ChangeScanSpread(x.ReadValue<Vector2>());
             playerControls.Player.Crouch.performed += x => ToggleCrouch();
             playerControls.Player.Interact.performed += x => playerInteracter.TryInteract();
@@ -64,7 +65,8 @@ public class PlayerInputHandler : MonoBehaviour
     }
     private void Scan()
     {
-        scan = playerControls.Player.Scan.IsPressed();
+        print(playerControls.Player.Scan.IsPressed());
+        _scanner.SetIsScanning(playerControls.Player.Scan.IsPressed());
     }
     private void ToggleCrouch()
     {
@@ -73,7 +75,6 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void ChangeScanSpread(Vector2 scanChangeInput)
     {
-        print(scanChangeInput);
         _scanner.ChangeSpread(scanChangeInput.y);
     }
 

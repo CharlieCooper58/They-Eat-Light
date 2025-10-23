@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94c8b8e26d75bb244bf4d5506d0f33d2, type: 3}
+  m_Name: 319A2A53-5C26-4399-B447-B60623014FB8
+  m_EditorClassIdentifier: 
+  objectName: LIDAR_On
+  id: 2546199283
+  guid: 319A2A53-5C26-4399-B447-B60623014FB8
+  IsInUserDefinedSoundBank: 1

@@ -8,13 +8,6 @@
   "CacheRoot": "../../../../Train Station_WwiseProject/.cache",
   "Platforms": [
    {
-    "Name": "Mac",
-    "GUID": "{872FFBFD-D020-4AB1-81AF-BB0B4EB3B959}",
-    "BasePlatform": "Mac",
-    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
-    "Path": "../../../../Train Station_WwiseProject/GeneratedSoundBanks/Mac"
-   },
-   {
     "Name": "Windows",
     "GUID": "{A4C1E968-65BA-4ADE-8E54-E1A6CC2CAB64}",
     "BasePlatform": "Windows",
@@ -31,6 +24,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{4282C3E0-5551-D531-477D-5448EAD0E1BD}"
+  "FileHash": "{821FDFB1-559A-34D3-474C-25093DF4179B}"
  }
 }

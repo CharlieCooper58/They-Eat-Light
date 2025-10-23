@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AF0F6BEA-B34D-46EB-910D-8A557F8FEF0F}",
     "Language": "SFX",
-    "Hash": "{677FF261-072C-1144-96DE-0E3DB72ECBE6}",
+    "Hash": "{28FBA2B5-0CFC-CDE9-AE3A-1BB4382F55E5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Lidar\\Lidar_Scan_Loop.wav",
-      "CachePath": "0E/{0E1334E9-EBD3-2F08-95AA-6C701BCCB4B1}.wem"
+      "CachePath": "30/{3077E853-1FA6-F8E8-521A-32C027CC3DBE}.wem"
      },
      {
       "Id": "224829378",
@@ -370,6 +370,6 @@
     ]
    }
   ],
-  "FileHash": "{17D1089D-AA5E-CA52-29D2-61913D49461D}"
+  "FileHash": "{C34F0401-AAEF-5DF9-29C1-D55D3BABEC52}"
  }
 }

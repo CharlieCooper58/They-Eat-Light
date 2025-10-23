@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using AK.Wwise;
 public class Scanner : MonoBehaviour
 {
     PlayerInputHandler playerInputHandler;
@@ -17,7 +18,8 @@ public class Scanner : MonoBehaviour
     [SerializeField] float minSpread = 5f;
     [SerializeField] float maxSpread = 30f;
 
-    [SerializeField] AudioSource audioSource;
+    [SerializeField] AK.Wwise.Event lidarOnEvent;
+    [SerializeField] AK.Wwise.Event lidarOffEvent;
 
     ScanLinesPool scanLinesPool;
 
@@ -36,6 +38,15 @@ public class Scanner : MonoBehaviour
     public void SetIsScanning(bool isScanning)
     {
         this.isScanning = isScanning;
+        if (isScanning)
+        {
+            lidarOnEvent.Post(gameObject);
+        }
+        else
+        {
+            lidarOffEvent.Post(gameObject);
+        }
+
     }
     public void ChangeSpread(float spreadDelta)
     {
@@ -45,15 +56,12 @@ public class Scanner : MonoBehaviour
 
     private void Update()
     {
-        isScanning = playerInputHandler.scan;
         if (isScanning) 
         {
             ScanTerrain();
-            audioSource.Play();
         }
         else
         {
-            audioSource.Stop();
         }
     }
     public void ScanTerrain()
