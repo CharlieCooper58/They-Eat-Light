@@ -7,6 +7,7 @@
 				<WorkUnit Name="Creatures" ID="{1E8DF6CD-5151-465C-8EC4-0C5C97D7854F}" PersistMode="Reference"/>
 				<WorkUnit Name="Foley" ID="{749B0E8B-5B9D-4A4D-A25D-0E4149D37373}" PersistMode="Reference"/>
 				<WorkUnit Name="Lidar" ID="{6466F6B4-4AF4-461B-970D-9B8E65049E26}" PersistMode="Reference"/>
+				<WorkUnit Name="Train" ID="{EB781E09-7575-4C5D-AA73-1A5468D7F19D}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

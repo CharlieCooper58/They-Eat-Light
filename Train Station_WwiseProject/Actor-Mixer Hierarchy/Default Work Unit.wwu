@@ -7,6 +7,7 @@
 				<WorkUnit Name="Spiders" ID="{A955D56F-9ADA-4BF0-93F8-56AFFAD4F8BC}" PersistMode="Reference"/>
 				<WorkUnit Name="Foley" ID="{0D1C7C09-04BB-4AF5-908E-5AC81B3D36B6}" PersistMode="Reference"/>
 				<WorkUnit Name="Lidar" ID="{68A66B65-E2D2-4132-A991-8165A6DA2DFF}" PersistMode="Reference"/>
+				<WorkUnit Name="Train" ID="{24D03DD3-619F-4BCE-94AF-D163607F1DB7}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

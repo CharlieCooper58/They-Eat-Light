@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 1874b7df3407614e95b3b59b5a2cf28b
     GuidInternal: 
-    m_lastTime: -8584437043696180274
+    m_lastTime: -8584334203106175057
     List:
     - name: Ambience
       guid: fc8da4fcb6153e4f9a1cb525f5123971
@@ -294,7 +294,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6fd97b72b21da84991f969f4d45db597
     GuidInternal: 
-    m_lastTime: -8584437043702610181
+    m_lastTime: -8584334254056224745
     List: []
   - PhysicalPath: Events\Foley.wwu
     PathAndIcons:
@@ -310,7 +310,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Foley
     guid: 8b0e9b749d5b4d4aa25d0e4149d37373
     GuidInternal: 
-    m_lastTime: -8584437043702593630
+    m_lastTime: -8584334254056016245
     List:
     - name: Heartbeat_Loop_Play
       guid: e87daa1e350df04b9f69a278fa02dc69
@@ -408,6 +408,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\Train.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6fd97b72b21da84991f969f4d45db597
+    - ElementName: Train
+      ObjectType: 12
+      guid: 091e78eb75755d4caa731a5468d7f19d
+    ParentPath: Events\Default Work Unit\Train
+    guid: 091e78eb75755d4caa731a5468d7f19d
+    GuidInternal: 
+    m_lastTime: -8584334254055824212
+    List:
+    - name: Train_Door
+      guid: ed4793ff91186f4ca4bba987969f1a8f
+      id: 23871016
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Train
+        ObjectType: 12
+        guid: 091e78eb75755d4caa731a5468d7f19d
+      - ElementName: Train_Door
+        ObjectType: 3
+        guid: ed4793ff91186f4ca4bba987969f1a8f
+      Path: Events\Default Work Unit\Train\Train_Door
+      maxAttenuation: 0
+      maxDuration: 3
+      minDuration: 1.8437642
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -464,7 +500,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584465606327346648
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000070000000b0000000c0000000e0000000f00000010000000
+  ExpandedFileSystemItemIds: 020000000300000004000000070000000b0000000c0000000e0000000f00000010000000120000001c0000001d0000001e000000
   ExpandedWaapiItemIds: 020000000300000004000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

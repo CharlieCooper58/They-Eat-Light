@@ -14,12 +14,12 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _SampleDistance
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -33,8 +33,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DotScale: 0.3
+    - _AlphaFalloff: 1
+    - _AlphaMin: 0.3
+    - _DotLifetime: 3
+    - _DotScale: 0.05
     - _Fade: 1
-    - _SampleDistance: 600
+    - _SampleDistance: 10
     m_Colors: []
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB781E09-7575-4C5D-AA73-1A5468D7F19D}" SchemaVersion="123" RootDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" ParentDocumentID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}">
+	<Events>
+		<WorkUnit Name="Train" ID="{EB781E09-7575-4C5D-AA73-1A5468D7F19D}" OwnerID="{727BD96F-1DB2-49A8-91F9-69F4D45DB597}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Train_Door" ID="{FF9347ED-1891-4C6F-A4BB-A987969F1A8F}">
+					<ChildrenList>
+						<Action Name="" ID="{687B98E1-C2F9-4E52-9F4D-280F57B3389D}" ShortID="393447660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Train_Doors" ID="{51DC3C9B-F0BF-4D71-BBB0-000AD9ED0E97}" WorkUnitID="{24D03DD3-619F-4BCE-94AF-D163607F1DB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

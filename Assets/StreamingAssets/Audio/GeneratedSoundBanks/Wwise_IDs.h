@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID HEARTBEAT_LOOP_STOP = 1944818395U;
         static const AkUniqueID LIDAR_OFF = 3832211783U;
         static const AkUniqueID LIDAR_ON = 2546199283U;
+        static const AkUniqueID TRAIN_DOOR = 23871016U;
     } // namespace EVENTS
 
     namespace BANKS

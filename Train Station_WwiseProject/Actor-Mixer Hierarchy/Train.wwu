@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{24D03DD3-619F-4BCE-94AF-D163607F1DB7}" SchemaVersion="123" RootDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" ParentDocumentID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}">
+	<AudioObjects>
+		<WorkUnit Name="Train" ID="{24D03DD3-619F-4BCE-94AF-D163607F1DB7}" OwnerID="{A4B8B9EB-D51F-459F-ACA2-8DD7174072A6}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Train_Doors" ID="{51DC3C9B-F0BF-4D71-BBB0-000AD9ED0E97}" ShortID="670800849">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Train_Doors-002" ID="{DD8F8834-A4B9-4AEE-B580-D63F7100E5CD}" ShortID="650017896">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700704__mathewhenry__metal-door-squeaking-7-medium" ID="{EE7DC965-BC6B-4A2E-88E4-D9325833496F}">
+									<Language>SFX</Language>
+									<AudioFile>700704__mathewhenry__metal-door-squeaking-7-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="361656095"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700704__mathewhenry__metal-door-squeaking-7-medium" ID="{EE7DC965-BC6B-4A2E-88E4-D9325833496F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-004" ID="{C3B2F9A8-7067-4A7C-BBF2-FBDA50D411B3}" ShortID="467512341">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700684__mathewhenry__metal-door-squeaking-15-medium" ID="{A203D7CF-97D1-4359-B0C7-544A3A4D2520}">
+									<Language>SFX</Language>
+									<AudioFile>700684__mathewhenry__metal-door-squeaking-15-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="156665579"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700684__mathewhenry__metal-door-squeaking-15-medium" ID="{A203D7CF-97D1-4359-B0C7-544A3A4D2520}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-008" ID="{4249223F-F17F-462E-B353-0AF84FDE58B9}" ShortID="391857566">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700680__mathewhenry__metal-door-squeaking-11-medium" ID="{FC83B2D3-B709-4293-B1AC-6A87933FB6BB}">
+									<Language>SFX</Language>
+									<AudioFile>700680__mathewhenry__metal-door-squeaking-11-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="470492556"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700680__mathewhenry__metal-door-squeaking-11-medium" ID="{FC83B2D3-B709-4293-B1AC-6A87933FB6BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-009" ID="{2C397F56-E427-41EA-9B1E-53F052A5AD65}" ShortID="399626692">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700679__mathewhenry__metal-door-squeaking-10-medium" ID="{F0B606B2-2451-4137-BF31-91EBBD4EE4A2}">
+									<Language>SFX</Language>
+									<AudioFile>700679__mathewhenry__metal-door-squeaking-10-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="509870607"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700679__mathewhenry__metal-door-squeaking-10-medium" ID="{F0B606B2-2451-4137-BF31-91EBBD4EE4A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-001" ID="{7991FDCA-71E4-47FE-9E73-39B4FBA86876}" ShortID="236440170">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700706__mathewhenry__metal-door-squeaking-9-medium" ID="{C79191D2-6408-42DF-87E4-4FA6B1F3A99B}">
+									<Language>SFX</Language>
+									<AudioFile>700706__mathewhenry__metal-door-squeaking-9-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="227419785"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700706__mathewhenry__metal-door-squeaking-9-medium" ID="{C79191D2-6408-42DF-87E4-4FA6B1F3A99B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-005" ID="{E728E624-07C9-44FB-9D9E-CC745ACE6612}" ShortID="125971007">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700683__mathewhenry__metal-door-squeaking-14-medium" ID="{5CEA88F7-CB69-47B1-9C3E-4481E2F90AB1}">
+									<Language>SFX</Language>
+									<AudioFile>700683__mathewhenry__metal-door-squeaking-14-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="177441948"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700683__mathewhenry__metal-door-squeaking-14-medium" ID="{5CEA88F7-CB69-47B1-9C3E-4481E2F90AB1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-007" ID="{FD856A01-79B0-4241-806D-50C8F1C29A6A}" ShortID="1005891584">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700681__mathewhenry__metal-door-squeaking-12-medium" ID="{F34BD76B-9232-48ED-9E2A-96A1B07ACFAB}">
+									<Language>SFX</Language>
+									<AudioFile>700681__mathewhenry__metal-door-squeaking-12-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="366902421"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700681__mathewhenry__metal-door-squeaking-12-medium" ID="{F34BD76B-9232-48ED-9E2A-96A1B07ACFAB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-006" ID="{8B4E18E4-AC49-4F3C-B8EC-2CBC826E6519}" ShortID="979035720">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700682__mathewhenry__metal-door-squeaking-13-medium" ID="{F6DC1F7C-63D3-4B6A-9832-422EC00096B0}">
+									<Language>SFX</Language>
+									<AudioFile>700682__mathewhenry__metal-door-squeaking-13-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="200535146"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700682__mathewhenry__metal-door-squeaking-13-medium" ID="{F6DC1F7C-63D3-4B6A-9832-422EC00096B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_Doors-003" ID="{94B7EC38-F149-45BE-9715-764434656748}" ShortID="601842852">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="700705__mathewhenry__metal-door-squeaking-8-medium" ID="{04CF8722-A8F0-4139-A515-E9F6487465C4}">
+									<Language>SFX</Language>
+									<AudioFile>700705__mathewhenry__metal-door-squeaking-8-medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="916278641"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="700705__mathewhenry__metal-door-squeaking-8-medium" ID="{04CF8722-A8F0-4139-A515-E9F6487465C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

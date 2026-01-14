@@ -69,6 +69,7 @@ public class Scanner : MonoBehaviour
         scanTimeElapsed += Time.deltaTime;
         Vector3 scanPosition = Camera.main.transform.position;
         Vector3 forwardDirection = Camera.main.transform.forward;
+        float t = Time.time;
         while (scanTimeElapsed >= timeBetweenScans)
         {
             float randomSeed = Random.Range(-angleSpread, angleSpread);
@@ -81,13 +82,15 @@ public class Scanner : MonoBehaviour
             
             // Perform the raycast  
             RaycastHit hit;
-            if (Physics.Raycast(scanPosition, randomDirection, out hit, scanMask))
+            if (Physics.Raycast(scanPosition, randomDirection, out hit, 1000f, scanMask))
             {
                 if(hit.collider.gameObject.layer == GameManager.creatureScansLayer) //collider.TryGetComponent(out LightSensitiveComponent lsc))
                 {
-                    hit.collider.GetComponentInParent<LightSensitiveComponent>().ReceiveScan(randomDirection, scanPosition);
-                    spawnablesManager.SpawnEntity(temporaryScanDotPrefab, hit.point, Quaternion.identity);
+                    LightSensitiveComponent lsc = hit.collider.GetComponentInParent<LightSensitiveComponent>();
+                    if(lsc) lsc.ReceiveScan(randomDirection, scanPosition);
+                    //spawnablesManager.SpawnEntity(temporaryScanDotPrefab, hit.point, Quaternion.identity);
                     //Instantiate(temporaryScanDotPrefab, hit.point, Quaternion.identity);
+                    TemporaryDotManager.instance.SpawnDot(hit.point, t);
                 }
                 else
                 {
