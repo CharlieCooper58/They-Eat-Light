@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Lever_Stuck" ID="{A218DAA5-E8B0-45C2-ACC2-78AB52A03DA8}">
+					<ChildrenList>
+						<Action Name="" ID="{14B173E8-EDC7-4C1D-BB39-BE6E5C02F9C4}" ShortID="522074912">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever_Stuck" ID="{341C9792-3018-42A6-9E46-A411461AD96D}" WorkUnitID="{F73644C7-8F5D-4BF5-BFDF-D493B80E0013}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lever_Pull" ID="{EBDA9C39-338A-4480-AA0B-9EAF1FF06AC1}">
+					<ChildrenList>
+						<Action Name="" ID="{B06ADCD9-1C21-4B72-917E-3B5054D68D59}" ShortID="886227189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever_Pull" ID="{3BCC2E2F-24BB-4035-80E3-BA22BD535ACB}" WorkUnitID="{F73644C7-8F5D-4BF5-BFDF-D493B80E0013}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

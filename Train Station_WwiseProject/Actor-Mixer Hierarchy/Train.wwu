@@ -213,6 +213,29 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<WorkUnit Name="Levers" ID="{F73644C7-8F5D-4BF5-BFDF-D493B80E0013}" PersistMode="Reference"/>
+				<Sound Name="Doors_Chime" ID="{6AFAC71E-B87E-418F-B3B9-4D529B7791D6}" ShortID="521740172">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BC4E8EA4-7691-48DC-93F7-3FA251806039}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{003E1556-0D68-4F7C-8426-63EBBB924A7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dingdong" ID="{B7AEA754-2BF3-4A96-9D79-6006A015B962}">
+							<Language>SFX</Language>
+							<AudioFile>dingdong.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="615336505"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dingdong" ID="{B7AEA754-2BF3-4A96-9D79-6006A015B962}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

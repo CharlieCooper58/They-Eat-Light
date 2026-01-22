@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AF0F6BEA-B34D-46EB-910D-8A557F8FEF0F}",
     "Language": "SFX",
-    "Hash": "{D850694F-5FB3-1DFD-A6BE-A2B83E9606FC}",
+    "Hash": "{391630C7-A91E-74E3-FAE0-AA0E0C0E2BEB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -216,6 +216,14 @@
       "CachePath": "4F/{4F3C79C7-D478-E7A3-CCCF-B5990D1F9E4A}.wem"
      },
      {
+      "Id": "807594769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "lever stuck.wav",
+      "CachePath": "33/{330B69BB-57FE-D2E1-E4CF-3AF61B0BEDBD}.wem"
+     },
+     {
       "Id": "838361277",
       "Language": "SFX",
       "Streaming": "false",
@@ -254,6 +262,14 @@
       "Location": "Memory",
       "ShortName": "Spider\\Creature_Slam_ChainLinkFence.wav",
       "CachePath": "6D/{6D73F79C-6940-FAFD-8DB0-B575FBA8A2B3}.wem"
+     },
+     {
+      "Id": "970126215",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "lever pull.wav",
+      "CachePath": "FC/{FC5F444A-51B1-2E06-66E4-0FDFA9715270}.wem"
      },
      {
       "Id": "1032008488",
@@ -370,6 +386,34 @@
       "DurationMax": "0"
      },
      {
+      "Id": "2660190379",
+      "Name": "Lever_Pull",
+      "ObjectPath": "\\Events\\Default Work Unit\\Train\\Lever_Pull",
+      "GUID": "{EBDA9C39-338A-4480-AA0B-9EAF1FF06AC1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6368481",
+      "DurationMax": "0.6368481",
+      "MediaRefs": [
+       {
+        "Id": "970126215"
+       }
+      ]
+     },
+     {
+      "Id": "612734394",
+      "Name": "Lever_Stuck",
+      "ObjectPath": "\\Events\\Default Work Unit\\Train\\Lever_Stuck",
+      "GUID": "{A218DAA5-E8B0-45C2-ACC2-78AB52A03DA8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5157083",
+      "DurationMax": "0.5157083",
+      "MediaRefs": [
+       {
+        "Id": "807594769"
+       }
+      ]
+     },
+     {
       "Id": "3832211783",
       "Name": "LIDAR_Off",
       "ObjectPath": "\\Events\\Default Work Unit\\Lidar\\LIDAR_Off",
@@ -480,6 +524,6 @@
     ]
    }
   ],
-  "FileHash": "{FE7A64F9-3247-1427-A09E-6F68276E4DBD}"
+  "FileHash": "{083935EE-5974-9B37-7D63-48390496CF6D}"
  }
 }

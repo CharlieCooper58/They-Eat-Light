@@ -35,7 +35,7 @@ Material:
     m_Floats:
     - _AlphaFalloff: 5
     - _AlphaMin: 0.2
-    - _DotLifetime: 3
+    - _DotLifetime: 6
     - _DotScale: 0.03
     - _SampleDistance: 10
     m_Colors: []

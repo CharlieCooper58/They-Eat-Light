@@ -1,10 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	23871016	Train_Door			\Default Work Unit\Train\Train_Door	
+	612734394	Lever_Stuck			\Default Work Unit\Train\Lever_Stuck	
 	827624077	Heartbeat_Loop_Play			\Default Work Unit\Foley\Heartbeat_Loop_Play	
 	1620715987	Creature_Slam_ChainLinkFence			\Default Work Unit\Creatures\Creature_Slam_ChainLinkFence	
 	1906809868	Creatrure_Hostile_Play			\Default Work Unit\Creatures\Creatrure_Hostile_Play	
 	1944818395	Heartbeat_Loop_Stop			\Default Work Unit\Foley\Heartbeat_Loop_Stop	
 	2546199283	LIDAR_On			\Default Work Unit\Lidar\LIDAR_On	
+	2660190379	Lever_Pull			\Default Work Unit\Train\Lever_Pull	
 	3169131063	Creature_Ambient_Call_Play			\Default Work Unit\Creatures\Creature_Ambient_Call_Play	
 	3752742194	Creature_Attack_Play			\Default Work Unit\Creatures\Creature_Attack_Play	
 	3832211783	LIDAR_Off			\Default Work Unit\Lidar\LIDAR_Off	
@@ -35,11 +37,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	696641715	Lidar_Switch_On-002	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\AB\{ABB97738-8FBD-C285-023B-7641285D886E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lidar\Lidar\Lidar_Switch_On\Lidar_Switch_On-002		891664
 	708131880	Lida_Switch_Off-007	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\B1\{B16BCB8B-1167-A9DE-195D-4B2AED5BBF82}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lidar\Lidar\Lidar_Switch_Off\Lida_Switch_Off-007		751144
 	743853813	Creature_Ambient_03	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\4F\{4F3C79C7-D478-E7A3-CCCF-B5990D1F9E4A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spiders\Spiders\Creature_Ambient_Call\Creature_Ambient_03		729696
+	807594769	Lever_Stuck	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\33\{330B69BB-57FE-D2E1-E4CF-3AF61B0BEDBD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Train\Levers\Lever_Stuck		99112
 	838361277	Heartbeat_Loop	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\7B\{7BE53C43-8A9C-E01F-625A-42AA98EBDB70}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Foley\Heartbeat_Loop		1612896
 	863828231	Creature_Attack	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\6F\{6FAFFAC6-BF1B-6A09-BFA9-6A9B3A63C194}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spiders\Spiders\Creature_Attack		416096
 	916278641	Train_Doors-003	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\1B\{1B591954-CFE4-09CD-1AF2-1E835514CEBF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Train\Train_Doors\Train_Doors-003		165472
 	945855424	Lidar_Switch_On-008	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\DA\{DACC9AEC-B524-224E-D270-EEF517D00FF1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lidar\Lidar\Lidar_Switch_On\Lidar_Switch_On-008		856012
 	948830246	Creature_Slam_ChainLinkFence	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\6D\{6D73F79C-6940-FAFD-8DB0-B575FBA8A2B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spiders\Spiders\Creature_Slam_ChainLinkFence		652504
+	970126215	Lever_Pull	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\FC\{FC5F444A-51B1-2E06-66E4-0FDFA9715270}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Train\Levers\Lever_Pull		112436
 	1032008488	Lidar_Switch_On-005	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\C1\{C1C811D9-265F-AF3B-C8B8-CE7D70D936CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lidar\Lidar\Lidar_Switch_On\Lidar_Switch_On-005		836032
 	1048414168	Lidar_Switch_On-004	C:\Users\ccoop\Train Station\Train Station_WwiseProject\.cache\B3\{B3F2C2FE-F142-9F81-7119-544A8EE00181}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lidar\Lidar\Lidar_Switch_On\Lidar_Switch_On-004		886552
 

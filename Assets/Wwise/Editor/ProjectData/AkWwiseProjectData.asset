@@ -422,8 +422,48 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Train
     guid: 091e78eb75755d4caa731a5468d7f19d
     GuidInternal: 
-    m_lastTime: -8584334254055824212
+    m_lastTime: -8584331595923558542
     List:
+    - name: Lever_Pull
+      guid: 399cdaeb8a338044aa0b9eaf1ff06ac1
+      id: 2660190379
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Train
+        ObjectType: 12
+        guid: 091e78eb75755d4caa731a5468d7f19d
+      - ElementName: Lever_Pull
+        ObjectType: 3
+        guid: 399cdaeb8a338044aa0b9eaf1ff06ac1
+      Path: Events\Default Work Unit\Train\Lever_Pull
+      maxAttenuation: 0
+      maxDuration: 0.6368481
+      minDuration: 0.6368481
+    - name: Lever_Stuck
+      guid: a5da18a2b0e8c245acc278ab52a03da8
+      id: 612734394
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6fd97b72b21da84991f969f4d45db597
+      - ElementName: Train
+        ObjectType: 12
+        guid: 091e78eb75755d4caa731a5468d7f19d
+      - ElementName: Lever_Stuck
+        ObjectType: 3
+        guid: a5da18a2b0e8c245acc278ab52a03da8
+      Path: Events\Default Work Unit\Train\Lever_Stuck
+      maxAttenuation: 0
+      maxDuration: 0.5157083
+      minDuration: 0.5157083
     - name: Train_Door
       guid: ed4793ff91186f4ca4bba987969f1a8f
       id: 23871016

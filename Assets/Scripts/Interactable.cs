@@ -3,7 +3,7 @@ using AK.Wwise;
 
 public class Interactable : MonoBehaviour
 {
-    [SerializeField] private AK.Wwise.Event onInteractEvent;
+    [SerializeField] protected AK.Wwise.Event onInteractEvent;
 
     public virtual void Interact() {
         PostSound();

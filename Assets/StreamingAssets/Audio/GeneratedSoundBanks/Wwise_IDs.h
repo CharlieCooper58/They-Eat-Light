@@ -21,6 +21,8 @@ namespace AK
         static const AkUniqueID CREATURE_SLAM_CHAINLINKFENCE = 1620715987U;
         static const AkUniqueID HEARTBEAT_LOOP_PLAY = 827624077U;
         static const AkUniqueID HEARTBEAT_LOOP_STOP = 1944818395U;
+        static const AkUniqueID LEVER_PULL = 2660190379U;
+        static const AkUniqueID LEVER_STUCK = 612734394U;
         static const AkUniqueID LIDAR_OFF = 3832211783U;
         static const AkUniqueID LIDAR_ON = 2546199283U;
         static const AkUniqueID TRAIN_DOOR = 23871016U;

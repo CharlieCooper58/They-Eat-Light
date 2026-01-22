@@ -11,7 +11,7 @@ public class PlayerInteracter : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(interactPosition, forwardDirection, out hit, interactRange, interactMask))
         {
-            if(hit.collider.TryGetComponent(out Interactable interactable))
+            if(hit.collider.attachedRigidbody.TryGetComponent(out Interactable interactable))
             {
                 interactable.Interact();
             }
