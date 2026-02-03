@@ -1,0 +1,1 @@
+Respository for my current game project, They Eat Light.  Using indirect GPU instancing, my LIDAR system can render millions of dots at a smooth 60+ fps; see DotManager.cs for more info.  Level design is currently underway, with the hopes of a demo release around September 2026.
